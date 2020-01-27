@@ -11,9 +11,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <link href='//fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
 
   <style>
+    #hiddenlink {
+      text-decoration: none;
+      color: white;
+    }
     .fakeimg {
       height: 200px;
       background: #aaa;
@@ -36,8 +40,8 @@
     </button>
     <div class="collapse navbar-collapse" id="probootstrap-navbar">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item pl-2 pr-3"> <img class="img" style="height:40px " src="1200px-Brown_University_coat_of_arms.svg.png" alt="Photograph of Brooke Teferra"></li>
-        <li class="nav-item" style="color:white; margin-top:7px">Brown Responsible CS</li>
+        <li class="nav-item pl-2 pr-3"> <a href="https://brown.edu"><img class="img" style="height:40px " src="1200px-Brown_University_coat_of_arms.svg.png" alt="Photograph of Brown seal"></a></li>
+        <li class="nav-item" style="color:white; margin-top:7px"><a id="hiddenlink" href="https://cs.brown.edu">Brown Computer Science</a></li>
 
       </ul>
       <ul class="navbar-nav mr-2">
@@ -104,7 +108,6 @@
   </section>
 
 
-
   <section class="pb_section  pb_slant-white" id="section-team">
     <div class="container" style="color: #1D71D5">
       <div class="row" style="padding-top:50px">
@@ -118,25 +121,110 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; ">
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px">
           <p class="pb_font-15 mt-4 mb-1">Stanley Yip</p>
           <img class="img-fluid p-3" style="height:200px; width:150px" src="team_pictures/syip2.jpg">
-          <p class="pb_font-15 mt-1 mb-3">HTA + CS1300 ETA</p>
+          <p class="pb_font-15 mt-1 mb-3">HTA</p>
         </div>
         <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
           <p class="pb_font-15 mt-4 mb-1">Jessica Dai</p>
           <img class="img-fluid p-3" style="height:200px;" src="team_pictures/jdai6.jpg">
-          <p class="pb_font-15 mt-1 mb-3">HTA + CS1470 ETA</p>
+          <p class="pb_font-15 mt-1 mb-3">HTA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
+          <p class="pb_font-15 mt-4 mb-1">Aaron Zhang</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/aaron.jpg">
+          <p class="pb_font-15 mt-1 mb-3">General ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
+          <p class="pb_font-15 mt-4 mb-1">Amanda Lee</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/amanda.jpg">
+          <p class="pb_font-15 mt-1 mb-3">CS112 ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
+          <p class="pb_font-15 mt-4 mb-1">Ben Vu</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/ben.jpg">
+          <p class="pb_font-15 mt-1 mb-3"> ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
+          <p class="pb_font-15 mt-4 mb-1">Eli Morimoto</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/eli.jpg">
+          <p class="pb_font-15 mt-1 mb-3">CS112 ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px">
+          <p class="pb_font-15 mt-4 mb-1">Hannah Chow</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/hannah.jpg">
+          <p class="pb_font-15 mt-1 mb-3">CS1660 ETA</p>
         </div>
         <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
           <p class="pb_font-15 mt-4 mb-1">Heila Precel</p>
-          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/hprecel.jpg">
-          <p class="pb_font-15 mt-1 mb-3">CS170 ETA</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/heila.png">
+          <p class="pb_font-15 mt-1 mb-3">CS32 ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
+          <p class="pb_font-15 mt-4 mb-1">Isabella Ting</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/isabella.jpg">
+          <p class="pb_font-15 mt-1 mb-3">CS1430 ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
+          <p class="pb_font-15 mt-4 mb-1">Jamison Wells</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/jamison.jpg">
+          <p class="pb_font-15 mt-1 mb-3">CS1320 ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
+          <p class="pb_font-15 mt-4 mb-1">Jessy Ma</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/jessy.jpg">
+          <p class="pb_font-15 mt-1 mb-3">CS160 ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px; border-left:0px">
+          <p class="pb_font-15 mt-4 mb-1">Karen Tu</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/karen.jpg">
+          <p class="pb_font-15 mt-1 mb-3">CS1420 ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px">
+          <p class="pb_font-15 mt-4 mb-1">Katie Friis</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/katie.jpg">
+          <p class="pb_font-15 mt-1 mb-3">CS1430 ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
+          <p class="pb_font-15 mt-4 mb-1">Kelvin Yang</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/kevin.png">
+          <p class="pb_font-15 mt-1 mb-3">CS1420 ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
+          <p class="pb_font-15 mt-4 mb-1">Kiran Merchant</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/kiran.png">
+          <p class="pb_font-15 mt-1 mb-3">CS32 ETA</p>
         </div>
         <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
           <p class="pb_font-15 mt-4 mb-1">Lena Cohen</p>
           <img class="img-fluid p-3" style="height:200px;" src="team_pictures/lcohen16.jpg">
+          <p class="pb_font-15 mt-1 mb-3">CS180 ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
+          <p class="pb_font-15 mt-4 mb-1">Livia Giminez</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/livia.jpg">
           <p class="pb_font-15 mt-1 mb-3">CS111 ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
+          <p class="pb_font-15 mt-4 mb-1">Shawna Huang</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/shawna.jpg">
+          <p class="pb_font-15 mt-1 mb-3">CS1660 ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px">
+          <p class="pb_font-15 mt-4 mb-1">Shenandoah Duraideivamani</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/shenandoah.jpg">
+          <p class="pb_font-15 mt-1 mb-3">CS180 ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
+          <p class="pb_font-15 mt-4 mb-1">Shira Abramovich</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/shira.jpg">
+          <p class="pb_font-15 mt-1 mb-3">CS1320 ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
+          <p class="pb_font-15 mt-4 mb-1">Tzion Jones</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/tzion.jpg">
+          <p class="pb_font-15 mt-1 mb-3">CS160 ETA</p>
         </div>
         <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
           <p class="pb_font-15 mt-4 mb-1">Tzuhwan Seet</p>
@@ -144,8 +232,13 @@
           <p class="pb_font-15 mt-1 mb-3">CS111 ETA</p>
         </div>
         <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
+          <p class="pb_font-15 mt-4 mb-1">Huayu Ouyang</p>
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/huayu.jpg">
+          <p class="pb_font-15 mt-1 mb-3">CS1951A ETA</p>
+        </div>
+        <div class="col-sm-2 text-center " style="border:1px solid #1D71D5 ; border-top:0px ; border-left:0px">
           <p class="pb_font-15 mt-4 mb-1">Ugur Cetintemel</p>
-          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/ugur.jpeg">
+          <img class="img-fluid p-3" style="height:200px;" src="team_pictures/ugur.jpg">
           <p class="pb_font-15 mt-1 mb-3">Faculty Director</p>
         </div>
 
@@ -165,7 +258,6 @@
         </ul>
       </div>
   </section>
-
   <section class="pb_section  pb_slant-white" id="section-events">
     <div class="container" style="color: #1D71D5">
       <div class="row" style="padding-top:50px">
@@ -413,7 +505,7 @@
   <section class="container-fluid content-section text-center" style=" color:white; background-color: #1D71D5" id="section-contact">
     <div class="col" style="padding-top:150px; padding-bottom:50px">
       <div class="row-sm text-center">
-        Questions? <br> Contact us at ethicsTAs@lists.cs.brown.edu <br> or <br> ethicsHTAs@lists.cs.brown.edu
+        Questions? Contact us at ethicsTAs@lists.cs.brown.edu
       </div>
     </div>
   </section>
